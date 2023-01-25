@@ -1,0 +1,7 @@
+.venv
+**/__pycache__
+security/files/**
+build
+dist
+countdown.egg-info
+db.sqlite3
