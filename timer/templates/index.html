@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <script type="text/javascript" src="{% static 'js/timer.js'%}"></script>
+    <link type="text/javascript" src="{% static 'js/actions.js'%}">
+</head>
+
+<body>
+<h1>Countdown</h1>
+<h3 id="heading1">0</h3>
+<form>
+<input type="number" id="number">
+<button type="button" onclick="timer();" value="click">Change</button>
+</form>
+
+</body>
+</html>
